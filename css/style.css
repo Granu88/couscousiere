@@ -1,0 +1,60 @@
+.navbar {
+  padding: 40px 0px 40px;
+}
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.8);
+		border-top: 0;
+	}
+}
+
+.font {
+  margin-left: 350px;
+  margin-right: 350px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.text {
+  margin: auto;
+}
+
+.main-header {
+  background: url(../img/fond.jpeg) no-repeat;
+  background-size: cover;
+  min-height: 610px;
+}
+
+.wrapper {
+  padding: 180px 0px 180px;
+}
+
+.title {
+  z-index: 5;
+  font-size: 27px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 38px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.top-title {
+  font-size: 80px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 88px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding: 25px 0px;
+}
+
+
+.footer-copyright {
+  justify-content: center;
+  background-color: #191919;
+  margin-top: 3rem;
+  padding: 20px 0px;
+  color: #fff;
+  line-height: 32px;
+}
